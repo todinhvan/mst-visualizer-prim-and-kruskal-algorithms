@@ -1,0 +1,60 @@
+#mainPane {
+    -fx-background-color: #DDD;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+#canvas {
+    -fx-focus-traversable: false;
+}
+
+#notiField {
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #999;
+}
+
+.vbox {
+    -fx-background-color: #DDD;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 0 5 0 5;
+}
+
+.button {
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-background-color: #F2F2F2;
+}
+
+#instructionTitle {
+
+}
+
+#backButton {
+   -fx-background-color: #FFF;
+}
+
+#backButton:hover {
+    -fx-opacity: 0.5;
+}
+
+#vertexLabel {
+    -fx-font-size: 20;
+    -fx-label-padding: 10;
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-min-height: 60;
+    -fx-min-width: 60;
+    -fx-max-height: 60;
+    -fx-max-width: 60;
+    -fx-alignment: CENTER;
+}
+
+.weightLabel {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: blue;
+}
